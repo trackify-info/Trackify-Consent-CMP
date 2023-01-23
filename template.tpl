@@ -14,6 +14,7 @@ ___INFO___
   "version": 1,
   "securityGroups": [],
   "displayName": "Trackify Free Consent CMP",
+  "categories": ["UTILITY", "ANALYTICS"],
   "brand": {
     "id": "github.com_trackify-info",
     "displayName": "Trackify",
