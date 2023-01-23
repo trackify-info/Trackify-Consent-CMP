@@ -1,5 +1,5 @@
 homepage: "https://www.trackify.info"
 documentation: "https://github.com/trackify-info/Trackify-Consent-CMP"
 versions:
-  - sha: 2922582bef964f61e47a371cf9bc27a5b7debef9
+  - sha: 172fd568ba41a53ffcb8286e329de8479aad8e4f
     changeNotes: Initial release
