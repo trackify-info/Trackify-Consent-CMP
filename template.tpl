@@ -259,6 +259,7 @@ const setDefaultConsentState =require('setDefaultConsentState');
 const queryPermission = require('queryPermission');
 const callInWindow = require('callInWindow');
 const setInWindow = require('setInWindow');
+const encodeUri = require('encodeUri');
 const consentVersion = '0.8';
 
 setDefaultConsentState({
@@ -289,7 +290,7 @@ let jsConsent;
 
 if (data.apiKey == undefined || data.apiKey == "") data.apiKey = "anonymous";
 
-jsConsent = 'https://cdn.trackify.info/consent-management/v'+consentVersion+'/'+data.apiKey+'/'+data.lang+'/trackify.js';
+jsConsent = encodeUri('https://cdn.trackify.info/consent-management/v'+consentVersion+'/'+data.apiKey+'/'+data.lang+'/trackify.js');
 
 var trackifyConfig = [{
     version: consentVersion,
