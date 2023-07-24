@@ -1,5 +1,7 @@
 homepage: "https://www.trackify.info"
 documentation: "https://github.com/trackify-info/Trackify-Consent-CMP"
 versions:
+  - sha: 7be5f8bc832b6714e7da4bee3bbe117146158d5e
+    changeNotes: Update template with encodeUri
   - sha: 76e7776c2e14ad4501acea7bb06c6c16ba8d8a2c
     changeNotes: Initial release
